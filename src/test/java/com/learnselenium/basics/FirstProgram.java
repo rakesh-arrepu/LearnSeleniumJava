@@ -30,7 +30,7 @@ public class FirstProgram {
 		
 		driver.findElement(By.xpath("//div[@class='FPdoLc lJ9FBc']//input[@aria-label='Google Search']"));
 		
-		
+		System.out.println("Elemnt is displayed");
 		
 		//Close the Browser(all sessions)
 		driver.quit();
