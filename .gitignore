@@ -1,0 +1,13 @@
+/target/
+.classpath
+target/*
+src/test/resources/drivers/.DS_Store
+target/classes/META-INF/maven/com.learnselenium/com.learnselenium/pom.properties
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+*.class
