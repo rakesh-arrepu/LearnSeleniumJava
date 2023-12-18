@@ -13,3 +13,7 @@ src/test/resources/drivers/.DS_Store
 *.class
 *.properties
 target/classes/META-INF/maven/com.learnselenium/com.learnselenium/pom.properties
+target/classes/META-INF/maven/com.learnselenium/com.learnselenium/pom.properties
+target/classes/META-INF/maven/com.learnselenium/com.learnselenium/pom.xml
+target/test-classes/com/learnselenium/basics/BasicOperations.class
+target/classes/META-INF/maven/com.learnselenium/com.learnselenium/pom.xml
