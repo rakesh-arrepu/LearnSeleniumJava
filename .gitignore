@@ -1,8 +1,8 @@
 /target/
+/test-output/
 .classpath
 target/*
 src/test/resources/drivers/.DS_Store
-target/classes/META-INF/maven/com.learnselenium/com.learnselenium/pom.properties
 
 # Compiled class file
 *.class
@@ -11,3 +11,9 @@ target/classes/META-INF/maven/com.learnselenium/com.learnselenium/pom.properties
 *.log
 
 *.class
+*.properties
+target/classes/META-INF/maven/com.learnselenium/com.learnselenium/pom.properties
+target/classes/META-INF/maven/com.learnselenium/com.learnselenium/pom.properties
+target/classes/META-INF/maven/com.learnselenium/com.learnselenium/pom.xml
+target/test-classes/com/learnselenium/basics/BasicOperations.class
+target/classes/META-INF/maven/com.learnselenium/com.learnselenium/pom.xml

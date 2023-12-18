@@ -29,8 +29,6 @@ public class BasicOperations {
 		
 		try {
 		//Chrome Driver setup
-		
-		driver.getCurrentUrl(); 
 			
 		driver.navigate().to("https://test.qatechhub.com/form-elements/");
 
