@@ -16,6 +16,7 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.learnselenium.excelutils.ExcelDataReader;
+import com.learnselenium.excelutils.Utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -44,7 +45,7 @@ public class FillFormData {
 	public void fillForm(String txtFirstName, String txtLastName, String txtEmail, String txtPhone,  String txtGender, String txtCourse) throws InterruptedException {
 		WebElement eleFirstName = driver.findElement(firstName);
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-		wait.until(ExpectedConditions.visibilityOf(eleFirstName));
+		wait.until(ExpectedConditions.visibilityOf(eleFirstName));		
 		
 		driver.findElement(firstName).sendKeys(txtFirstName);
 		driver.findElement(lastName).sendKeys(txtLastName);
@@ -54,7 +55,9 @@ public class FillFormData {
 		WebElement ddl = driver.findElement(ddlCourse);
 		Select sel = new Select(ddl);
 		sel.selectByValue(txtCourse); 
-		driver.findElement(btnSubmit).click();
+		
+		Utilities.click(btnSubmit);
+//		driver.findElement(btnSubmit).click();
 		
 		Thread.sleep(5000);
 		
